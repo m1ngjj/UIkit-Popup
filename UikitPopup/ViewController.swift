@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  UikitPopup
 //
-//  Created by 박민정 on 2/26/25.
+//  Created by m1ngjj on 2/26/25.
 //
 
 import UIKit
@@ -15,5 +15,26 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func tapbutton1(_ sender: UIButton) {
+        PopupManager.shared.presentPopup(
+            uiType: .A,
+            actionType: .dismiss,
+            titleText: "Notice",
+            contentText: "Would you like to complete it?",
+            animated: true
+        )
+    }
+    
+    @IBAction func tapButton2(_ sender: UIButton) {
+        PopupManager.shared.presentPopup(
+            uiType: .B,
+            actionType: .move,
+            titleText: "Notice",
+            contentText: "Would you like to move?\nWould you like to move?\nWould you like to move?\nWould you like to move?\nWould you like to move?\nWould you like to move?\nWould you like to move?\nWould you like to move?\nWould you like to move?\nWould you like to move?\nWould you like to move?",
+            destinationStoryboard: "Main",
+            destinationVCIdentifier: "SecondViewController",
+            animated: true
+        )
+    }
 }
 

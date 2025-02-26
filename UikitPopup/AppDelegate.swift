@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  UikitPopup
 //
-//  Created by 박민정 on 2/26/25.
+//  Created by m1ngjj on 2/26/25.
 //
 
 import UIKit
