@@ -30,7 +30,7 @@ class ViewController: UIViewController {
             uiType: .B,
             actionType: .move,
             titleText: "Notice",
-            contentText: "Would you like to move?\nWould you like to move?\nWould you like to move?\nWould you like to move?\nWould you like to move?\nWould you like to move?\nWould you like to move?\nWould you like to move?\nWould you like to move?\nWould you like to move?\nWould you like to move?",
+            contentText: "Would you like to move?",
             destinationStoryboard: "Main",
             destinationVCIdentifier: "SecondViewController",
             animated: true
