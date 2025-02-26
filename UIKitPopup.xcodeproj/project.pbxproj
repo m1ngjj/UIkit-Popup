@@ -26,7 +26,7 @@
 		506C77CC2D6EA22A009E7DC1 /* PopupUIType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupUIType.swift; sourceTree = "<group>"; };
 		506C77D22D6EAE15009E7DC1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		506C77D62D6EB0FB009E7DC1 /* PopupActionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupActionType.swift; sourceTree = "<group>"; };
-		5075384E2D6E8AB200D5C49E /* UikitPopup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UikitPopup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5075384E2D6E8AB200D5C49E /* UIKitPopup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitPopup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		507538662D6E8BF900D5C49E /* Popup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Popup.storyboard; sourceTree = "<group>"; };
 		507538682D6E8BF900D5C49E /* PopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
 		5075386A2D6E8BF900D5C49E /* PopupManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupManager.swift; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		507538452D6E8AB200D5C49E = {
 			isa = PBXGroup;
 			children = (
-				5075387C2D6E8C0200D5C49E /* UikitPopup */,
+				5075387C2D6E8C0200D5C49E /* UIKitPopup */,
 				5075384F2D6E8AB200D5C49E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,7 +62,7 @@
 		5075384F2D6E8AB200D5C49E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5075384E2D6E8AB200D5C49E /* UikitPopup.app */,
+				5075384E2D6E8AB200D5C49E /* UIKitPopup.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,7 +80,7 @@
 			path = Popup;
 			sourceTree = "<group>";
 		};
-		5075387C2D6E8C0200D5C49E /* UikitPopup */ = {
+		5075387C2D6E8C0200D5C49E /* UIKitPopup */ = {
 			isa = PBXGroup;
 			children = (
 				5075387A2D6E8C0200D5C49E /* SceneDelegate.swift */,
@@ -93,15 +93,15 @@
 				506C77D22D6EAE15009E7DC1 /* SecondViewController.swift */,
 				5075386C2D6E8BF900D5C49E /* Popup */,
 			);
-			path = UikitPopup;
+			path = UIKitPopup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5075384D2D6E8AB200D5C49E /* UikitPopup */ = {
+		5075384D2D6E8AB200D5C49E /* UIKitPopup */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 507538612D6E8AB300D5C49E /* Build configuration list for PBXNativeTarget "UikitPopup" */;
+			buildConfigurationList = 507538612D6E8AB300D5C49E /* Build configuration list for PBXNativeTarget "UIKitPopup" */;
 			buildPhases = (
 				5075384A2D6E8AB200D5C49E /* Sources */,
 				5075384B2D6E8AB200D5C49E /* Frameworks */,
@@ -111,11 +111,11 @@
 			);
 			dependencies = (
 			);
-			name = UikitPopup;
+			name = UIKitPopup;
 			packageProductDependencies = (
 			);
 			productName = UikitPopup;
-			productReference = 5075384E2D6E8AB200D5C49E /* UikitPopup.app */;
+			productReference = 5075384E2D6E8AB200D5C49E /* UIKitPopup.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -133,7 +133,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 507538492D6E8AB200D5C49E /* Build configuration list for PBXProject "UikitPopup" */;
+			buildConfigurationList = 507538492D6E8AB200D5C49E /* Build configuration list for PBXProject "UIKitPopup" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -147,7 +147,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5075384D2D6E8AB200D5C49E /* UikitPopup */,
+				5075384D2D6E8AB200D5C49E /* UIKitPopup */,
 			);
 		};
 /* End PBXProject section */
@@ -214,20 +214,21 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8YXF8CY48Y;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UikitPopup/Info.plist;
+				INFOPLIST_FILE = UIKitPopup/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mjpark.UikitPopup;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = mjpark.UIKitPopup;
+				PRODUCT_NAME = UIKitPopup;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -243,20 +244,21 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8YXF8CY48Y;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UikitPopup/Info.plist;
+				INFOPLIST_FILE = UIKitPopup/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mjpark.UikitPopup;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = mjpark.UIKitPopup;
+				PRODUCT_NAME = UIKitPopup;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -385,7 +387,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		507538492D6E8AB200D5C49E /* Build configuration list for PBXProject "UikitPopup" */ = {
+		507538492D6E8AB200D5C49E /* Build configuration list for PBXProject "UIKitPopup" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				507538642D6E8AB300D5C49E /* Debug */,
@@ -394,7 +396,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		507538612D6E8AB300D5C49E /* Build configuration list for PBXNativeTarget "UikitPopup" */ = {
+		507538612D6E8AB300D5C49E /* Build configuration list for PBXNativeTarget "UIKitPopup" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				507538622D6E8AB300D5C49E /* Debug */,
